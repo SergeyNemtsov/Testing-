@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="searchApple"
+    errors="1" failures="1" hostname="" id="" package="searchApple" skipped="0"
+    tests="1" time="8.400" timestamp="">
+  
+    <testcase name="Search for Lego" classname="searchApple" time="8.400" assertions="3">
+
+    
+
+      <failure message="Apple title ok in 5000ms - expected &#34;contains text &#39;Товаров не найдено :(&#39;&#34; but got: &#34;error while locating the element&#34; (7832ms)">    at Search for Lego (C:\Users\admin\Desktop\testing\test\searchApple.js:20:13)</failure>
+
+    
+    <error message="Apple title ok in 5000ms - expected [0;32m&#34;contains text &#39;Товаров не найдено :(&#39;&#34;[0m but got: [0;31m&#34;error while locating the element&#34;[0m [0;90m(7832ms)[0m" type="error"><![CDATA[
+    Error
+    at Command.executeCommand (C:\Users\admin\Desktop\testing\node_modules\nightwatch\lib\page-object\command-wrapper.js:246:22)
+    at Object.containsText (C:\Users\admin\Desktop\testing\node_modules\nightwatch\lib\page-object\command-wrapper.js:80:27)
+    at Proxy.&lt;anonymous&gt; (C:\Users\admin\Desktop\testing\node_modules\nightwatch\lib\api\index.js:157:30)
+    at Search for Lego (C:\Users\admin\Desktop\testing\test\searchApple.js:20:13)
+    at Context.call (C:\Users\admin\Desktop\testing\node_modules\nightwatch\lib\testsuite\context.js:476:35)
+    at TestCase.run (C:\Users\admin\Desktop\testing\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\admin\Desktop\testing\node_modules\nightwatch\lib\testsuite\index.js:745:80)
+    at Runnable.run (C:\Users\admin\Desktop\testing\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Users\admin\Desktop\testing\node_modules\nightwatch\lib\testsuite\index.js:898:49)
+    at TestSuite.handleRunnable (C:\Users\admin\Desktop\testing\node_modules\nightwatch\lib\testsuite\index.js:913:33)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       TimeoutError
+   An error occurred while running .getText() command on &lt;Element [name=@pageTitle]&gt;: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.75)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;NoSuchWindowError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
