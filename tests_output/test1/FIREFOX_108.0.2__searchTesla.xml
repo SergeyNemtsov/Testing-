@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test1.searchTesla"
+    errors="0" failures="0" hostname="" id="" package="searchTesla" skipped="0"
+    tests="1" time="1.409" timestamp="">
+  
+    <testcase name="Search for Tesla" classname="test1.searchTesla" time="1.409" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
