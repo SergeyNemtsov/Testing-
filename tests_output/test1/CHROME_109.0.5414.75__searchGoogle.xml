@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test1.searchGoogle"
+    errors="0" failures="1" hostname="" id="" package="searchGoogle" skipped="0"
+    tests="1" time="7.040" timestamp="">
+  
+    <testcase name="Search for Google car" classname="test1.searchGoogle" time="7.040" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="title ok in 5000ms - expected &#34;is &#39;Google&#39;&#34; but got: &#34;TestGym&#34; (5332ms)">    at Search for Google car (C:\Users\user-01\Desktop\Testing\test1\searchGoogle.js:36:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

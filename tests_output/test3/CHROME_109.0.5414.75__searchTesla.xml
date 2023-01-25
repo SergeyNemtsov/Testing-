@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test3.searchTesla"
+    errors="0" failures="1" hostname="" id="" package="searchTesla" skipped="0"
+    tests="1" time="6.610" timestamp="">
+  
+    <testcase name="Search for Tesla" classname="test3.searchTesla" time="6.610" assertions="4">
+
+    
+
+    
+
+      <failure message="Tesla title ok in 5000ms - expected &#34;contains text &#39;Tesla car XXXX III&#39;&#34; but got: &#34;does not contain &#39;Tesla car XXXX III&#39;&#34; (5464ms)">    at Search for Tesla (C:\Users\user-01\Desktop\Testing\test3\searchTesla.js:25:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
